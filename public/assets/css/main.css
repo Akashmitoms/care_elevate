@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section1 {
+  background-color: #f5f2f0;
+  padding-left: 10%;
+}
+.section2 {
+  background-color: #052e26;
+  color: white;
+  padding: 5% 10%;
+}
+.section3 {
+  background-color: #f5f2f0;
+  padding: 5% 10%;
+}
+.section4 {
+  padding: 5% 10%;
+}
+.section7 {
+  padding: 1% 10%;
+}
+.section8 {
+  background-color: #f5f2f0;
+  padding: 0 5px;
+}
+.section5 {
+  background-color: #052e26; /* For browsers that do not support gradients */
+  background-image: conic-gradient(
+    white 0deg,
+    white 90deg,
+    #052e26 90deg,
+    #052e26 180deg,
+    #052e26 180deg,
+    #052e26 270deg,
+    white 270deg
+  );
+  padding: 5% 10%;
+}
+.section6 {
+  background-color: #052e26; /* For browsers that do not support gradients */
+  background-image: conic-gradient(
+    #052e26 0deg,
+    #052e26 90deg,
+    white 90deg,
+    white 180deg,
+    white 180deg,
+    white 270deg,
+    #052e26 270deg
+  );
+  padding: 5% 10%;
+}
+.head_line {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: dm-sans;
+  text-align: left;
+  color: white;
+  margin: 20px 0;
+}
+.head_line_b {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: dm-sans;
+  text-align: left;
+  color: #052e26;
+  margin: 20px 0;
+}
+.head_line_p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: dm-sans;
+  color: white;
+  margin: 20px 0;
+  opacity: 0.7;
+}
+.head_line_pb {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: dm-sans;
+  color: black;
+  margin: 20px 0;
+  opacity: 0.7;
+}
+.btn_a {
+  background-color: #f5f2f0;
+  padding: 15px 30px;
+  margin: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.btn_a:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+.btn_b {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  margin: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.btn_b:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.input_btn {
+  background-color: black;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.input_btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+@media only screen and (max-width: 768px) {
+  .head_line {
+    font-size: 35px;
+  }
+}

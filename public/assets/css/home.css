@@ -1,0 +1,264 @@
+.sec1 {
+  display: flex;
+}
+.sec1_sub_a {
+  width: 45%;
+  padding-right: 7%;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  background-color: #f5f2f0;
+}
+.sec1_sub_a h1 {
+  font-size: 57px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 68px;
+  margin-bottom: 10%;
+  margin-left: 20px;
+}
+.sec1_sub_a p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: dm-sans;
+  line-height: 32px;
+  color: #111112;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+.sec1_sub_b {
+  width: 55%;
+}
+.sec1_sub_b img {
+  width: 100%;
+}
+.video_a {
+  border: 1px solid black;
+  color: black;
+  padding: 15px 18px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.video_a:hover {
+  background-color: black;
+  color: white;
+}
+.sec2 {
+  display: flex;
+  gap: 1%;
+}
+.head_line {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: dm-sans;
+  text-align: left;
+  margin: 50px 0;
+}
+.sec2_a {
+  width: 33.33%;
+  padding: 20px 10px;
+  background-color: #123931;
+  text-align: center;
+  margin: 20px 0;
+  border-bottom: 5px solid #09493c;
+}
+.sec2_a:hover {
+  border: none;
+  box-shadow: 2px 5px 10px 0 black;
+}
+.sec2_a h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: dm-sans;
+  color: white;
+  margin: 30px 0;
+}
+.sec2_a p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: dm-sans;
+  color: white;
+  margin: 20px 0;
+}
+.icon_2 {
+  font-size: 50px;
+  color: white;
+}
+.sec3 {
+  display: flex;
+  gap: 1%;
+}
+.sec3_a {
+  width: 20%;
+  border: 1px solid #123931;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.sec3_a:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+.sec3_icon {
+  font-size: 45px;
+  color: #123931;
+  padding: 10px;
+}
+.sec3_a h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: dm-sans;
+  color: #123931;
+  margin: 20px 0;
+}
+.sec3_a p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: dm-sans;
+  color: #123931;
+  margin: 20px 0;
+}
+.about_line {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: dm-sans;
+  text-align: left;
+  margin: 10% 0;
+}
+.sec4 {
+  display: flex;
+  gap: 1%;
+}
+.sec4_a {
+  width: 50%;
+  padding-right: 5%;
+}
+.sec4_a p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: dm-sans;
+  color: white;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+.sec4_b {
+  width: 50%;
+}
+.sec4_b img {
+  width: 100%;
+}
+.sec5 {
+  display: flex;
+  gap: 5%;
+  padding: 0 2%;
+}
+.sec5_a {
+  width: 50%;
+}
+.sec5_a img {
+  width: 100%;
+  box-shadow: -25px 25px 0 0 #f5f2f0;
+}
+.sec5_b {
+  width: 50%;
+  text-align: center;
+}
+.sec5_c img {
+  width: 100%;
+  box-shadow: 25px 25px 0 0 #f5f2f0;
+}
+.sec5_b h2 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: dm-sans;
+  text-align: center;
+  margin: 50px 0;
+}
+.sec5_b p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: dm-sans;
+  text-align: justify;
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+.section5 {
+  background-color: #052e26; /* For browsers that do not support gradients */
+  background-image: conic-gradient(
+    white 0deg,
+    white 90deg,
+    #052e26 90deg,
+    #052e26 180deg,
+    #052e26 180deg,
+    #052e26 270deg,
+    white 270deg
+  );
+  padding: 5% 10%;
+}
+.sec6 {
+  display: flex;
+}
+.sec6_a {
+  width: 50%;
+  background-color: #f5f2f0;
+  padding: 5% 7%;
+}
+.sec6_a h5 {
+  display: inline;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: dm-sans;
+  color: #052e26;
+  margin: 15px 0;
+  padding: 0 10px;
+  background-color: white;
+}
+.sec6_a h1 {
+  font-size: 47px;
+  font-weight: 500;
+  line-height: 56px;
+  font-family: dm-sans;
+  color: #052e26;
+  margin: 15px 0;
+}
+.sec6_a p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: dm-sans;
+  color: #052e26;
+  margin: 10px 0;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  color: black;
+}
+.input_btn {
+  background-color: black;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.input_btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+.sec6_b {
+  width: 50%;
+}
+.sec6_b img {
+  width: 100%;
+  height: 100%;
+}
