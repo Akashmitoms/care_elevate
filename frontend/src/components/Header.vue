@@ -66,8 +66,8 @@
   </pop-up>
   <header>
     <div class="head1">
-      <div @click="$router.push('/')">
-        <img src="../assets/image/logo_3 - Copy.png" alt="" />
+      <div class="head1" @click="$router.push('/')">
+        <img :src="logoUrl" alt="Website Logo" />
       </div>
       <div class="head2">
         <ul>
@@ -101,7 +101,7 @@
 </template>
 
 <script>
-// import axios from "axios";
+import axios from "axios";
 
 export default {
   data() {
@@ -116,9 +116,25 @@ export default {
         others: false,
         additionalInfo: "",
       },
+      logoUrl: "",
     };
   },
+  async mounted() {
+    await this.fetchLogo();
+  },
   methods: {
+    async fetchLogo() {
+      try {
+        const response = await axios.get(
+          "http://localhost:8000/api/admin/logo"
+        );
+        if (response.data && response.data.header_logo) {
+          this.logoUrl = `http://localhost:8000/storage/${response.data.header_logo}`;
+        }
+      } catch (error) {
+        console.error("Failed to load logo:", error);
+      }
+    },
     close() {
       this.togglePopup = false;
     },
