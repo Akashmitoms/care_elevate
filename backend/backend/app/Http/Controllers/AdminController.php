@@ -15,6 +15,11 @@ class AdminController extends Controller
         $pages = Page::with('sections.contents')->get();
         return response()->json($pages);
     }
+    public function getLogo()
+    {
+        $setting = Setting::first();
+        return response()->json($setting);
+    }
 
     public function updateLogo(Request $request)
     {
